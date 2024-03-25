@@ -63,7 +63,6 @@ Once the application is running, you can perform CRUD operations through the web
 
 - `app.py`: The Flask application.
 - `utils.py`: Utility functions for database operations.
-- `/templates`:  files for the application.
 - `/static`: HTML CSS and JavaScript files.
 
 ## Contributing
