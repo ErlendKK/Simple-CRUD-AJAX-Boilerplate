@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User database</title>
+    <link rel="stylesheet" href="/static/styles/styles.css">
+    <script src="/static/js/delete.js" type="module" defer></script>
+    <script src="/static/js/get.js" type="module" defer></script>
+    <script src="/static/js/post.js" type="module" defer></script>
+    <script src="/static/js/update.js" type="module" defer></script>
+    <script src="/static/entry.js" type="module" defer></script>
+</head>
+
+<body>
+<div id="container">
+
+<form id="post-form">
+    <fieldset>
+        <input type="text" id="input-name" autofocus placeholder="Enter name">
+        <input type="number" id="input-age" autofocus placeholder="Enter age">
+        <button id="post-button" type="button">Submit</button>
+        <div id="post-result" class="output hidden"></div>
+    </fieldset>
+</form>
+
+<form id="get-form">
+    <fieldset>        
+        <table id="get-table" class="hidden output">
+            <thead> 
+                <th>Name</th>
+                <th>Age</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+
+    </fieldset>
+</form>
+
+<form id="update-form" class=" hidden">
+    <fieldset class="update-fieldset">
+        <h3>Update name and/or age</h3>
+        <div>
+            <input type="text" id="edit-name" placeholder="Enter name">
+            <input type="number" id="edit-age" placeholder="Enter age">
+            <button id="update-button" type="button">Update</button>
+        </div>
+    </fieldset>
+</form>
+
+</div>
+</body>

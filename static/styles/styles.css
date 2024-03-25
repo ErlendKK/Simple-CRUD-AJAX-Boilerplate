@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+form {
+    display: inline-block;
+    width: 35em;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.update-fieldset {
+    flex-direction: column;
+    align-items: start;
+}
+
+input {
+    min-width: 5em;
+    width: 14.5em;
+    margin-right: 0.95em;
+}
+
+button {
+  width: 5em;
+}
+
+.output {
+    min-height: 2em;
+    height: auto;
+    width: 33em;
+    background-color: ghostwhite;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.hidden {
+    display: none;
+}
