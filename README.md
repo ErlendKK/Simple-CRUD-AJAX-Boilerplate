@@ -1,6 +1,6 @@
 # Simple CRUD/AJAX Boilerplate
 
-This repository contains a simple CRUD (Create, Read, Update, Delete) application boilerplate using Vanilla JavaScript for the frontend, Flask for the backend, and SQLite for the database. It's designed to apply basic CRUD operations through AJAX calls.
+This repository contains a simple CRUD (Create, Read, Update, Delete) application boilerplate using Vanilla JavaScript for the frontend, Flask for the backend, and SQLite for the database. It's designed as a template for applying basic CRUD operations through AJAX calls.
 
 ## Features
 
